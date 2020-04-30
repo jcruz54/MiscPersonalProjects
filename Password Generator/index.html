@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <h2>By: Julian Sta Cruz</h2>
+    <p>
+        Instructions: Check the boxes to asdgasg what type of characters you want in your password.
+        Press "Generate Password" to create a randomly generated password based on the parameters 
+        you have selected.
+    </p>
+
+    <button onclick="toggleUppercase()" id="has-up">Uppercase Letters</button>
+    <button onclick="toggleLowercase()" id="has-low">Lowercase Letters</button>
+    <button onclick="toggleNumbers()" id="has-num">Numbers</button>
+    <button onclick="toggleSpecial()" id="has-sp">Special Characters</button>
+    <button onclick="showNewPassword()">Generate new Password</button>
+
+    <p id="password">[New password will be here]</p>
+</body>
+</html>
